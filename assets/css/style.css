@@ -57,6 +57,7 @@ h3 {
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
+  top: 0;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -215,3 +216,141 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media screens */
+@media screen and (max-width: 980px){
+  #masthead {
+   width: 100%;
+   max-width: 980px;
+   margin: 0 auto;
+ }
+
+nav {
+  padding: 0px 15px 0px 15px;
+  color: #999999;
+  text-decoration: none;
+}
+/* can't figure out how to make the main container smaller for the 980px like in the example*/
+
+#main-container {
+  width: 600px;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+#main-section {
+  width: 380px;
+  background-color: white;
+  float: left;
+  color: #777777;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.auth-image {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 10px 0px;
+  }
+
+/* portfolio*/ 
+
+.work {
+  position: relative; 
+  width: 200px;
+  display: inline;
+  float: left;
+}
+
+.work h3 {
+  position: absolute;
+  font-size: 1em;
+  padding: 5px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  #masthead {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+ 
+ nav {
+   padding: 0px 15px 0px 15px;
+   color: #999999;
+   text-decoration: none;
+ }
+ /* can't figure out how to make the main container smaller for the 980px like in the example*/
+ 
+ #main-container {
+   width: 600px;
+   margin: 0 auto;
+   
+ }
+ 
+ #main-section {
+   width: 380px;
+   background-color: white;
+   float: left;
+   color: #777777;
+   font-size: 1.2em;
+   line-height: 2em;
+ }
+ 
+ .auth-image {
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 0px 20px 10px 0px;
+   }
+ 
+ /* portfolio*/ 
+ 
+ .work {
+   position: relative; 
+   width: 200px;
+   display: inline;
+   float: left;
+   margin-left: 20px;
+ }
+ 
+ .work h3 {
+   position: absolute;
+   font-size: 1em;
+   padding: 5px;
+ }
+
+ 
+}
+@media screen and (max-width: 640px){
+  #masthead{
+    width: 100%;
+    position: static;
+  }
+  #logo {
+    width: 100%;
+  } 
+  nav {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#main-container {
+  padding-top: 20px;
+}
+.work {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.work h3{
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+ }
